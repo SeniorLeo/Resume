@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="descriptions" content="leonid, cv, resume">
+    <meta name="keywords" content="Это сайт - резюме Леонида Казакова">
+    <link rel="stylesheet" href="styles.css">
+    <title>Leonid Resume</title>
+
+</head>
+
+<body>
+ <div class="container"> 
+
+<div class="container">
+<div class="info">
+    <img src="avatar.jpg" alt="Здесь лежит фото для резюме" class="avatar">
+
+    <br>
+<div class="info-text">
+    <h1>Леонид Казаков</h1>
+
+
+    <p>Я начинающий <strong>web-разработчик</strong>. <br>Прошел уйму курсов по <strong>Python, C++, C#</strong>. В итоге остановился на JavaScript</p>
+
+    <p>В свободное от работы время, <em>играю на гитаре, занимаюсь спортом, тусуюсь с друзьями</em></p>
+
+
+    <h4><strong>Список моих социальных сетей:</strong></h4>
+
+
+    <a href="https://vk.com/kazakov112" target="_blank">ВКонтакте</a>
+    |
+    <a href="https://ridero.ru/books/respaun/" target="_blank">Сайт моей книги</a>
+    |
+    <a href="https://t.me/Euroleo" target="_blank">Telegram</a>
+</div>    
+</div>
+
+<div class="card-hobby">
+    <h4><strong>Мои хобби</strong></h4>
+
+    <ol class="list">
+        <li>Плавание</li>
+        <li>Чтение</li>
+        <li>Игра на муз.инструментах</li>
+    </ol>
+</div>
+
+<div class="card-work">
+    <h4>Опыт работы</h4>
+
+    <table class="table">
+        <!-- <thead> 
+        <tr>
+            <th>Название Организации</th>
+            <th>Должность</th>
+            <th>Прием/увольнение</th>
+        </tr>
+        </thead> -->
+
+        <tbody>
+        <tr>
+            <td>ЗАО "ИВК"</td>
+            <td>Инженер</td>
+            <td>2007-2010</td>
+        </tr>
+
+        <tr>
+            <td>ООО "Евросеть-Ритейл"</td>
+            <td>Директор</td>
+            <td>2010-2019</td>
+        </tr>
+
+        <tr>
+            <td>ОАО "ТК "Центр"</td>
+            <td>Менеджер</td>
+            <td>2021-2022</td>
+        </tr>
+
+        <tr>
+            <td>ООО "Дома посижу"</td>
+            <td>Самозанятый</td>
+            <td>2022-наст.время</td>
+        </tr>
+    </tbody>    
+    </table>
+</div>   
+
+<form action="/" class="form">
+    <h4>Связаться со мной</h4>
+
+    <div class="form-row">
+
+    <div class="form-group">
+        <label for="text">Ваше имя</label>
+        <input type="text" id="text" placeholder="Введите имя">
+     </div>
+
+     <div class="form-group">
+        <label for="email">Ваш email</label>
+        <input type="email" id="email" placeholder="Введите email">
+     </div>
+
+     <div class="form-group">
+        <label for="tel">Ваш телефон</label>
+        <input type="tel" id="tel" placeholder="79261111111" pattern="[0-11] {+7}" maxlength="11">
+     </div>
+    </div>
+
+     <div class="form-group">
+        <label for="message">Ваше сообщение</label>
+        <textarea id="message" cols="29" rows="5" placeholder="Введите сообщение..."></textarea>
+     </div>
+
+     <button type="submit" class="btn">Отправить!</button>
+    </form>
+</div>
+    
+</body>
+</html>
